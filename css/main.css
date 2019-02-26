@@ -1,0 +1,192 @@
+/********BASE**********/
+body {
+	font-family: 'Dosis', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+h3 {
+	font-size: 36px;
+	text-align: center;
+}
+
+h4 {
+	font-size: 24px;
+}
+
+p, ul {
+	font-size: 24px;
+}
+
+/********GRID**********/
+#intro {
+	height: 550px;
+}
+
+#work {
+	height: 1300px;
+}
+
+#about {
+	height: 620px;
+}
+
+#contact {
+	height: 450px;
+}
+
+.full-width {
+	width: 1400px;
+	clear: both;
+}
+
+.half-width {
+	width: 700px;
+	float: left;
+	display: block-inline;
+}
+
+.third-width {
+	width: 466px;
+	float: left;
+	display: block-inline;
+}
+/********HEADER********/
+#intro {
+	background-image: url("../img/hero.png");
+	margin-top: -30px;
+	border-bottom: 3px solid #bdbf09;
+} 
+#intro h1 {
+	font-size: 60px;
+	color: #bdbf09;
+	padding-left: 500px;
+	padding-top: 270px;
+}
+
+#intro h2 {
+	color: #095156;
+	padding-left: 500px;
+	font-size: 48px;
+}
+
+span {
+	color: #087e8b;
+}
+
+/********PORTFOLIO*****/
+
+#holstee {
+	padding-top: 30px;
+}
+#jubilee {
+	margin-top: 30px;
+}
+
+.right {
+	padding-top: 20px;
+}
+
+#work p {
+	padding-right: 200px;
+}
+
+#work .full-width {
+	overflow: auto;
+	color: #095156;
+}
+
+
+#work h3, h4, p {
+	color: #095156;
+}
+
+#work img {
+	margin-left: 90px;
+	border: 1px solid #095156;
+	width: 550px;
+	height: 350px;
+	clear: both;
+}
+
+
+
+
+
+/********ABOUT*********/
+
+#about {
+	background-color: #087e8b;
+	padding-top: 10px;
+}
+
+#about h3 {
+	color: #ffffff;
+}
+#about img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 45%;
+	height: 45%;
+}
+#about p {
+	padding-right: 200px;
+	text-align: left;
+	line-height: 30px;
+	color: #ffffff;
+}
+
+#about ul {
+	color: #ffffff;
+	padding-right: 200px;
+} 
+
+/********CONTACT*******/
+
+#contact {
+	background-color: #095156;
+	padding-top: 10px;
+}
+#contact h3 {
+	color: #ffffff;
+}
+
+#contact h4 {
+	color: #ffffff;
+	text-align: center;
+}
+
+#contact p {
+	color: #ffffff;
+	text-align: center;
+}
+
+#contact a {
+	color: #ffffff;
+}
+
+
+#contact ul {
+    list-style: none;
+    padding-left: 105px;
+}
+#contact ul li {
+     display: inline-block;
+}
+
+#contact ul img {
+    font-size: 32px;
+    padding-right: 48px;
+
+}
+
+#copyright {
+	clear: both;
+	padding-top: 50px;
+	text-align: center;
+}
+
+
